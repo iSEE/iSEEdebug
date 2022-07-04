@@ -1,3 +1,7 @@
+## Issue: https://github.com/iSEE/iSEE/issues/580
+## YouTube video: https://youtu.be/3vce4QucXAM
+## Script written by Kevin Rue-Albrecht
+
 library(iSEE)
 
 # Data ----
