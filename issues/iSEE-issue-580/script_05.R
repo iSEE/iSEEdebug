@@ -34,6 +34,7 @@ initial <- list(
     RowDataTable(
         PanelWidth = 4L,
         Selected = "Gene_0001",
+        Search = "^A0",
         SelectionBoxOpen = TRUE,
         RowSelectionSource = "RowDataPlot1"
         ),
