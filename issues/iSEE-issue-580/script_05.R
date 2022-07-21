@@ -1,5 +1,5 @@
 ## Issue: https://github.com/iSEE/iSEE/issues/580
-## YouTube video: https://youtu.be/3vce4QucXAM
+## YouTube video: n/a
 ## Script written by Kevin Rue-Albrecht
 
 library(iSEE)
