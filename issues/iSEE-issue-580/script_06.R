@@ -2,6 +2,10 @@
 ## YouTube video: n/a
 ## Script written by Kevin Rue-Albrecht
 
+## This script extends script_05.R,
+## adding two panels that extend the chain of transmission
+## upstream of the ComplexHeatmapPlot panel.
+
 library(iSEE)
 
 # Data ----
