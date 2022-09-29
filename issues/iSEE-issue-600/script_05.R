@@ -28,5 +28,5 @@ panelDefaults(
     TooltipColumnData = c("Treatment", "sizeFactor", "Mutation_Status")
 )
 
-app <- iSEE(sce, initial=initial)
+app <- iSEE(sce)
 shiny::runApp(app, launch.browser = TRUE)
