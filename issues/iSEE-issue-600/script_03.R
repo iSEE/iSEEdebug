@@ -22,8 +22,8 @@ rowData(sce)[["dummy_numeric"]] <- rnorm(nrow(sce))
 sce <- registerAppOptions(sce, tooltip.rowdata = c("dummy_numeric"), tooltip.coldata = c("Treatment", "Cell_Cycle"))
 
 initial <- list(
-    ColumnDataPlot(TooltipSelection = "Cell_Cycle", PanelWidth = 6L),
-    RowDataPlot(TooltipSelection = "dummy_numeric", PanelWidth = 6L),
+    ColumnDataPlot(TooltipData = "Cell_Cycle", PanelWidth = 6L),
+    RowDataPlot(TooltipData = "dummy_numeric", PanelWidth = 6L),
     ColumnDataPlot(PanelWidth = 6L),
     RowDataPlot(PanelWidth = 6L)
 )
